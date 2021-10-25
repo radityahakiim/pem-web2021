@@ -1,0 +1,186 @@
+
+
+/* -------- Auto Complite */
+
+
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ui-autocomplete > li {
+  padding: 3px 20px;
+}
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #DDD;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+
+
+    /* see More menu atas */
+    .see-more{
+        text-align: center;
+    }
+    .see-more-button{
+        padding: 5px;
+        margin: 5px auto;
+        display: inline-table;
+        background-color: #ff4500;
+        text-decoration: none;
+		  border: 1px solid transparent;
+		  color: #ffffff;
+		  -webkit-border-radius: 3px;
+		  border-radius: 3px;
+		  -webkit-transition: all 0.3s ease-in-out;
+		  -moz-transition: all 0.3s ease-in-out;
+		  transition: all 0.3s ease-in-out;
+
+
+    }
+    .see-more-button:hover{
+        
+        text-decoration: none;
+        background-color: #F5F5F5;
+		  color: #ff4500;
+		  border-color: #ff4500;
+    }
+
+/* Student Only */
+
+
+    .li-ac {
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .li-ac a {
+        font-size:1.1em;
+    }
+    .li-ac a:hover {
+        font-size:1.1em;
+        color:#FF4500;
+        text-decoration:none;
+    }
+
+    .li-ac p {
+        font-size:0.6em;color:#333;
+    }
+    .ac-over {
+        overflow :auto;
+        height:300px;
+    }
+
+    .jb-over {
+        overflow :auto;
+        height:330px;
+    }
+
+    .ac-jb {
+        font-size:1.1em;
+    	padding-left:15px;
+        padding-right:15px;
+        padding-bottom:10px;
+        padding-top:10px;
+        border-bottom : 1px solid #DDDDDD;
+    }
+
+    .ukm {
+    	border-left:3px solid #DDDDDD;
+    	margin-bottom:15px;
+    }
+    .ukm-title {
+    	font-size:1.1em;
+    	margin: 0px 0px 0px;
+        color: #0d4a60;
+    }
+    .ukm-title:hover {
+        color:#FF4500;
+    }
+    .ukm-des {
+    	font-size:0.8em;
+    	color:#999;
+    	margin: 0px 0px 0px;
+    }
+    .ukm:hover {
+    	border-left:3px solid #FF4500;
+    	cursor:pointer;
+    	color:#FF4500;
+    }
+
+
+
+
+    /* Sty JOB Career */
+    .list-group-item:first-child {
+	    border-radius: 0px;
+	}
+
+    .list-group-item {
+    	border-radius: 0px;
+    	border: 1px solid #ddd;
+        border-right: none;
+        border-left: none;
+    }
+	.list-group-item a {
+        text-decoration:none;
+        border-radius: 0px;
+     }
+     .list-group-item a:hover {
+        color:#FF4500;
+     }
+
+
+
+.button-big{
+    padding: 20px 50px;
+    text-decoration: none;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 20px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.button-big:hover{
+    text-decoration: none;
+    color: #f39c12;
+    background-color: #fff;
+    border: 2px solid #f39c12;
+}
+.button-med{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 2px solid #f39c12;
+    background-color: #fff;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.button-med:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f39c12;
+}
