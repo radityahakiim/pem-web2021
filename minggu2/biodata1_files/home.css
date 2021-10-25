@@ -1,0 +1,139 @@
+/*---Mobile Version---*/
+      @media(max-width:768px){
+          div#logo {
+              display: none;
+
+          }
+          .menuatas {
+            display: none;
+          }
+
+          .menu2atas {
+            display: block;
+          }
+
+          li#ilanghome{
+              display: none;
+          }
+          .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+              color: #FFFDFD;
+          }
+
+          section.tinyslide {
+              display: none;
+          }
+
+          td.tdalln {
+              display: none;
+          }
+
+          .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+			    background-color: #022D5F;
+			    border-color: #337ab7;
+			}
+
+		div.reg {
+			display: none;
+		}
+
+		div.reg_m {
+			display: block;
+		}
+
+
+      }
+
+      div.reg {
+			display :block;
+		}
+
+		div.reg_m {
+			display: none;
+		}
+
+      div.news {
+          background-color: #fff;
+
+          width: 100%;
+          height: 280px;
+          overflow: scroll;
+          padding: 15px;
+      }
+
+      div.pgm {
+          background-color: #CBCAC6;
+
+      width: 100%;
+          height: 530px;
+          overflow: scroll;
+          padding: 15px;
+      }
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+          background-color: #022D5F;
+      }
+          /*
+          #bgr {
+          background-image: url('<?php echo base_url()."img/semarangan/kuliner semarang2.png";?>') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+      .navj {
+          background-image: -webkit-linear-gradient(top,#003478 0,#052C52 100%);
+          background-image: -o-linear-gradient(top,#003478 0,#052C52 100%);
+          background-image: -webkit-gradient(linear,left top,left bottom,from(#003478),to(#052C52));
+          background-image: linear-gradient(to bottom,#003478 0,#052C52 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+          filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+          background-repeat: repeat-x;
+          border-color: #245580;
+
+      }
+
+
+      .modif3 {
+      @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+          font-family: 'Pathway Gothic One', sans-serif;
+
+            font-size: 1.3em;
+      }
+
+
+      .stl {
+          color: red;
+      }
+
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+          color: #FCFCFC;
+          background-color: #6DAAF9;
+      }
+
+      .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+		    background-color: #6DAAF9;
+		    color: #FCFCFC;
+		}
+
+		.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+		    color: #FCFCFC;
+		    text-decoration: none;
+		    background-color: #6DAAF9;
+		}
+
+      /* Z index Navbar Fixed */
+      .navbar-fixed-bottom, .navbar-fixed-top {
+		    position: fixed;
+		    right: 0;
+		    left: 0;
+		    z-index: 100;
+		}
+
+
+
+
+
+
+
+

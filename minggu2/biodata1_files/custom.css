@@ -1,0 +1,236 @@
+/* box */
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);
+body {
+    /*font-family: inherit;*/
+    /*font-weight: normal;*/
+    font-size: 1.3em;
+    /*text-rendering: optimizeLegibility;*/
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F1EC;
+}
+div.at {
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.shadow {
+-moz-box-shadow: inset 0px 0px 10px #000000;
+-webkit-box-shadow: inset 0px 0px 10px #000000;
+box-shadow: inset 0px 0px 10px #000000;
+}
+.shadow2{
+-moz-box-shadow: 0px -5px 25px #333;
+-webkit-box-shadow: 0px -5px 25px #333;
+box-shadow: 0px -5px 25px #333;
+}
+/* Login siadin dan Web mile Button */
+
+.stl {
+    font-size: 1.1em;
+
+}
+
+/*menu Utama*/
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #022D5F;
+}
+
+/*Menu Dropdown*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #022D5F;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #FFF;
+    background-color: #022D5F;
+}
+
+div.abaoutin{
+	border-right: 1px solid #b1b1b1;
+}
+
+div.abaoutin:hover p{
+	color: red;
+}
+
+.navbar-default {
+    /*background-color: #f8f8f8;*/
+    border-color: #003478;
+    border-radius: 0px;
+    background-color:#003478;
+    /*box-shadow: 0px 5px 10px #003478;*/
+}
+
+.research {
+    /*background-color: #f8f8f8;*/
+    border-radius: 0px;
+    box-shadow: 0px 3px 10px #002147;
+    background-color: #D8D8D8;
+    border-color: #C5B8B8;
+}
+
+
+
+#audiencenav {
+    float: left;
+    font-size: 10px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    /*width: 80%;*/
+}
+
+.upper-img img {
+    width:60px ;
+}
+
+
+.modif2>li>a:focus, .modif2>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    /*background-color: red;*/
+    font-size: 1em;
+    padding: 10px 10px;
+}
+
+.modif2>li>a:focus, .modif2>li>a:hover {
+    text-decoration: none;
+    background-color: #022D5F;
+    color: #FFD601;
+}
+
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #003478;
+    white-space: nowrap;
+}
+
+.text-center {
+  text-align: center !important; }
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.menu-rightku {
+
+    font-size: 1em;
+    font-color: red;
+}
+
+
+
+
+/*.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {*/
+    /*background-color: #0A5BC4;*/
+    /*border-color: #337ab7;*/
+    /*color:#FFDB00;*/
+/*}*/
+
+/*for coming up  event*/
+.bg1{
+    background-image: url("../img/slide/international-forum.jpg");
+    background-size: cover;
+}
+
+.trapezium1 {
+    height: 0;
+    width: 60%;
+    border-bottom: 350px solid #ffffff;
+    border-right: 45px solid transparent;
+    padding-right: 20px;
+}
+.btn-big{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid;
+    border-radius: 50px;
+    display: inline-block;
+}
+.btn-big:hover{
+    text-decoration: none;
+    color: #E24A4A;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-big-left{
+    text-align: left;
+}
+.btn-big-color{
+    color: #00C5C5;
+}
+.blink {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+@media (max-width: 768px) {
+    .header-center{
+        font-size: 18px;
+        text-align: center;
+    }
+    .paragraf-center{
+        text-align: center;
+    }
+    .btn-big-left, .btn-big-right{
+        text-align: center;
+    }
+    .btn-big{
+        font-size: 1em;
+        border-width: 2px;
+    }
+    #audiencenav {
+    width: 70%;
+    border-bottom: 0;
+    }
+
+    .col-md-10 {
+        width: 30%;
+    }
+
+}
+@media (max-width: 992px) {
+    .trapezium1{
+        height: auto;
+        width: 100%;
+        border: none;
+        background-color: #ffffff;
+    }
+}
+
