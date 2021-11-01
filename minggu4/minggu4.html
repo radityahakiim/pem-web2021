@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Masukkan nama*: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Masukkan Email*: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+		<div class="form-example">
+    <label for="email">Jumlah uang Rupiah yang ingin di deposit*: </label>
+    <input type="balance" name="balance" id="balance" required>
+  </div>
+		<label for="payment">Pilih Metode Pembayaran*:</label>
+		<select id="payment" name="metode1" form="metode2">
+			<option value="vba">Virtual Bank Account</option>
+			<option value="qris">Pembayaran via QRIS</option>
+		</select>
+  <div class="form-example">
+    <input type="submit" value="Deposit">
+  </div>
+</form>
+
+</body>
+</html>
