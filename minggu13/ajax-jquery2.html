@@ -6,8 +6,8 @@
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Belajar AJAX dengan JQuery</title>
  <script
-src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></scr
-ipt>
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+</script>
 </head>
 <body>
  <h1>Load Data</h1>
@@ -17,16 +17,13 @@ ipt>
  <p id="location"></p>
 
 
- <script>
-var url = "https://jsonplaceholder.typicode.com/posts";
-var data = {
- title: "Tutorial AJAX dengan JQuery",
- body: "Ini adalah tutorial tentang AJAX",
- userId: 1
-};
-$.post(url, data, function(data, status){
- // data terkirim, lakukan sesuatu di sini
-});
-</script>
+<script>
+ var url = "https://raw.githubusercontent.com/radityahakiim/pem-web2021/main/minggu13/kode.json";
+ $.get(url, function(data, status){
+ $("#avatar").attr("src", data.avatar_url);
+ $("#name").text(data.name);
+  $("#location").text(data.location);
+ });
+ </script>
 </body>
 </html>
